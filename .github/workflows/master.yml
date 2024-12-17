@@ -28,8 +28,8 @@ jobs:
 
       - name: Generate Random Delay
         run: |
-          # Menghasilkan waktu tunda acak antara 0-3600 detik (0-1 jam)
-          random_delay=$(( RANDOM % 3600 ))
+          # Menghasilkan waktu tunda acak antara 0-360 detik (0-6 Menit)
+          random_delay=$(( RANDOM % 360 ))
           echo "Waiting for $random_delay seconds"
           sleep $random_delay
 
