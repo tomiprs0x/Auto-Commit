@@ -36,7 +36,7 @@ To create your own version of this repository and workflow:
 Before using the workflow, you'll need to customize it with your GitHub user email and name:
 
 1. Navigate to the `.github/workflows/master.yml` file in your repository.
-2. Edit the file, replacing `"rxmxdhxni@gmail.com"` with your email and `"dante4rt"` with your GitHub username in the `Setup Git Configuration` step.
+2. Edit the file, replacing `"69198533+justTheKai@users.noreply.github.com"` with your email and `"JustThekai"` with your GitHub username in the `Setup Git Configuration` step.
 3. Commit your changes.
 
 ### Viewing Workflow Runs
