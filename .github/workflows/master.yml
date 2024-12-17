@@ -6,7 +6,7 @@ on:
 
   schedule:
     # Randomize cronjob 
-    - cron: '*/20 * * * *' # Setiap 20 menit
+    - cron: '*/60 * * * *' # Setiap 60 menit
     - cron: '15,45 * * * *' # Pada menit ke-15 dan 45 setiap jam
     - cron: '0 */3 * * *' # Setiap 3 jam sekali
 
